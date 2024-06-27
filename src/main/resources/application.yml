@@ -1,0 +1,10 @@
+server:
+  port: 9001
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/testers
+      authentication-database: admin
+      username: firstAdmin
+      password: 123123
