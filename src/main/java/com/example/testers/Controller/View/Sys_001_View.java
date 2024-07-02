@@ -18,7 +18,7 @@ public class Sys_001_View {
     @Resource
     private UserService userService;
 
-    @GetMapping("/")
+    @GetMapping("/sys001")
     public String view001 (Model model){
         return "sys/sys001";
     }
